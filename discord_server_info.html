@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WolfGang</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #1b1b1b;
+    }
+    header {
+      background: linear-gradient(to right, #3b82f6, #60a5fa);
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    .container {
+      padding: 30px 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-left: 5px solid #3b82f6;
+      padding-left: 10px;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .staff-group {
+      margin-bottom: 40px;
+    }
+    .staff-title {
+      font-size: 20px;
+      color: #1d4ed8;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .staff-title i {
+      margin-right: 8px;
+    }
+    .staff-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .staff-card {
+      background-color: #e0f2ff;
+      color: #1e3a8a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-align: center;
+      font-weight: 600;
+    }
+    .staff-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .category-card {
+      background-color: #f0f9ff;
+      border-left: 5px solid #3b82f6;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+    }
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+    .category-card i {
+      font-size: 20px;
+      color: #3b82f6;
+      margin-right: 10px;
+    }
+    .category-title {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .category-desc {
+      font-size: 14px;
+      color: #374151;
+    }
+    footer {
+      background-color: #e5e7eb;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #374151;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+      header p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo wg.jpg" alt="WolfGang Logo">
+    <h1>WolfGang</h1>
+    <p>Selamat datang di halaman informasi resmi komunitas kami</p>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>Tentang Server</h2>
+      <p>WolfGang adalah tempat berkumpulnya para penggemar teknologi, game, dan diskusi santai. Kami menyediakan ruang yang ramah, interaktif, dan edukatif bagi siapa pun yang ingin bergabung. Kami menyediakan berbagai channel untuk diskusi game, sharing meme, voice chat, dan event seru lainnya.</p>
+    </section>
+
+    <section class="section">
+      <h2>Staff Kami</h2>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-crown"></i> Owner</div>
+        <div class="staff-list">
+          <div class="staff-card">Jenaissante</div>
+        </div>
+      </div>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-shield-alt"></i> Moderator</div>
+        <div class="staff-list">
+          <div class="staff-card">Zikoo</div>
+          <div class="staff-card">Sagara</div>
+        </div>
+      </div>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-paint-brush"></i> Desain & Branding</div>
+        <div class="staff-list">
+          <div class="staff-card">Naucisea</div>
+          <div class="staff-card">Xenoon</div>
+        </div>
+      </div>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-hashtag"></i> Sosial Media Manajer</div>
+        <div class="staff-list">
+          <div class="staff-card">Meow</div>
+        </div>
+      </div>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-video"></i> Streamer</div>
+        <div class="staff-list">
+          <div class="staff-card">Anne</div>
+        </div>
+      </div>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-door-open"></i> Welcomer</div>
+        <div class="staff-list">
+          <div class="staff-card">Sapu</div>
+          <div class="staff-card">Yerin</div>
+        </div>
+      </div>
+      <div class="staff-group">
+        <div class="staff-title"><i class="fas fa-headset"></i> Support Team</div>
+        <div class="staff-list">
+          <div class="staff-card">Oji</div>
+          <div class="staff-card">Ercha</div>
+          <div class="staff-card">Padil</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Kategori Server Kami</h2>
+      <div class="categories">
+        <div class="category-card">
+          <div class="category-title"><i class="fas fa-server"></i>#WG Dashboard</div>
+          <div class="category-desc">Tempat informasi server</div>
+        </div>
+        <div class="category-card">
+          <div class="category-title"><i class="fas fa-comments"></i>#Text Channels</div>
+          <div class="category-desc">Tempat untuk chatting bersama</div>
+        </div>
+        <div class="category-card">
+          <div class="category-title"><i class="fas fa-microphone"></i>#Voice Channels</div>
+          <div class="category-desc">Tempat untuk kenalan dan mengobrol bersama</div>
+        </div>
+        <div class="category-card">
+          <div class="category-title"><i class="fas fa-laugh"></i>#Entertainment</div>
+          <div class="category-desc">Berbagi karya & meme favorit</div>
+        </div>
+        <div class="category-card">
+          <div class="category-title"><i class="fas fa-book"></i>#Study Channels</div>
+          <div class="category-desc">Tempat belajar & berbagi materi</div>
+        </div>
+        <div class="category-card">
+          <div class="category-title"><i class="fas fa-gamepad"></i>#Game Channels</div>
+          <div class="category-desc">Tempat bermain bersama</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Komunitas WolfGang | Discord: <a href="https://discord.gg/pjTcjxyjJh">https://discord.gg/pjTcjxyjJh</a>
+  </footer>
+</body>
+</html>
